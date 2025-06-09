@@ -39,4 +39,28 @@ pip install -r requirements.txt
 
 ## 开发状态
 
-项目正在开发中 
+项目正在开发中
+
+# 建筑规范AI问答网页版
+
+本项目基于 Streamlit 实现建筑规范专业问答系统，支持中英文切换，适合国际化和老板体验。
+
+## 在线体验
+
+1. 将本项目上传到 GitHub。
+2. 在 [Streamlit Community Cloud](https://streamlit.io/cloud) 选择仓库一键部署。
+3. 入口文件为 `web_rag.py`。
+
+## 本地运行
+
+```bash
+pip install -r requirements.txt
+streamlit run web_rag.py
+```
+
+## 依赖
+- streamlit
+- requests
+
+## 配置
+请将 `web_rag.py` 中的 `API_URL` 改为你的后端API公网地址。 
